@@ -6,21 +6,30 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logoblend"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Blend"
         tools:targetApi="31">
+
+        <!-- Splash Screen Activity -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashActivity"
+            android:exported="true"> <!-- Tambahkan exported untuk API 31+ -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Tambahkan aktivitas lainnya di bawah ini jika diperlukan -->
+        <!-- Contoh: HomeActivity -->
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".MangoActivity"/>
+        <activity android:name=".NuttelaActivity"/>
+        <activity android:name=".GreenActivity"/>
     </application>
 
 </manifest>

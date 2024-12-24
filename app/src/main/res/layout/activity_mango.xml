@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mango_gradient"
+    tools:context=".MangoActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/favorite_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_favorite_border_24"
+            android:contentDescription="Favorite Icon"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="Manggo Thai Smoothies"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mangonew"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <!-- Selamat Mencoba -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="Selamat Mencoba"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Bahan-Bahan -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Bahan-Bahan :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:text="• 100 ml whipping cream\n• 80 ml santan kental\n• ¼ sdt garam\n• 60 gr mangga\n• 400 gr mangga\n• 1 mangkuk es batu\n• 80 ml susu kental manis"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Langkah-Langkah -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Langkah-Langkah :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:text="• Kocok whipping cream, santan kental, dan garam\n• Dinginkan / simpan dalam kulkas\n• Potong mangga untuk topping\n• Masukkan mangga dan es batu ke dalam blender\n• Tambahkan susu kental manis\n• Tuang ke gelas saji\n• Beri topping cream dan potongan mangga"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

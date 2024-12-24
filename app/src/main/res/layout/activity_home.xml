@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_gradient">
+
+    <!-- Gambar Utama -->
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="320dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/halamanmenu"
+        android:contentDescription="Gambar Resep" />
+
+    <!-- Teks Deskripsi Gambar -->
+    <TextView
+        android:id="@+id/imageLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textSize="10sp"
+        android:textColor="@android:color/white" />
+
+    <!-- Judul Resep -->
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageLink"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-19dp"
+        android:text="RESEP THAI SMOOTHIES"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+</RelativeLayout>
