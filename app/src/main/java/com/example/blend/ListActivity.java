@@ -43,6 +43,26 @@ public class ListActivity extends AppCompatActivity {
             }
         });
 
+        // Menghubungkan ImageView untuk gambar Strawberry
+        ImageView imageStrawberry = findViewById(R.id.image4);
+        imageMango.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListActivity.this, StrawberryActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Menghubungkan ImageView untuk gambar Banana
+        ImageView imageBanana = findViewById(R.id.image5);
+        imageMango.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListActivity.this, BananaActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Di dalam onCreate() method pada Activity
         View background1 = findViewById(R.id.background1);
         background1.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +87,24 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ListActivity.this, GreenActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        View background4 = findViewById(R.id.background4);
+        background4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListActivity.this, StrawberryActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        View background5 = findViewById(R.id.background5);
+        background5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListActivity.this, BananaActivity.class);
                 startActivity(intent);
             }
         });

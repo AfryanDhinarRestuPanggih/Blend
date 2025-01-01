@@ -30,6 +30,8 @@
         <activity android:name=".MangoActivity"/>
         <activity android:name=".NuttelaActivity"/>
         <activity android:name=".GreenActivity"/>
+        <activity android:name=".StrawberryActivity"/>
+        <activity android:name=".BananaActivity"/>
     </application>
 
 </manifest>

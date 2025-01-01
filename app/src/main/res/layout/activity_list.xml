@@ -124,6 +124,70 @@
                 android:textSize="17sp"
                 android:textColor="@android:color/black"
                 android:layout_marginTop="10dp" />
+
+            <!-- Background Rectangle -->
+            <View
+                android:id="@+id/background4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#E0E0E0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="120dp"/>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="Gambar Strawberry Thai Smoothies"
+                android:scaleType="centerCrop"
+                android:src="@drawable/strawberry" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image4"
+                android:text="Strawberry Thai Smoothies"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="130dp" />
+
+            <!-- Background Rectangle -->
+            <View
+                android:id="@+id/background5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#E0E0E0"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="240dp"/>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="Gambar Banana Thai Smoothies"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banana" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/image4"
+                android:text="Banana Thai Smoothies"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="250dp" />
         </RelativeLayout>
 
     </LinearLayout>
