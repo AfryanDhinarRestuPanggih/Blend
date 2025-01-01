@@ -16,7 +16,7 @@
 #### Dengan Minuman Blend, anda dapat:
 ##### 1. Menjelajahi berbagai resep minuman kekinian, mulai dari smoothies dan milkshake.
 ##### 2. Mempelajari langkah-langkah pembuatan minuman dengan petunjuk yang mudah diikuti.
-##### 3. Mendapatkan tips unik untuk menciptakan kreasi ala barista.
+3. Mendapatkan tips unik untuk menciptakan kreasi ala barista.
 
 #### Fitur utama 
 ##### 1. Menu favorit
