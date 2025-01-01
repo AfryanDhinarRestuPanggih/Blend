@@ -14,13 +14,13 @@
 ## Project Aplikasi Blend
 #### Selamat Datang di aplikasi Minuman Blend, Tempat terbaik untuk menemukan berbagai resep minuman segar & nikmat! Aplikasi ini dirancang khusus untuk anda yang gemar bereksperimen dengan minuman.
 #### Dengan Minuman Blend, anda dapat:
-##### 1. Menjelajahi berbagai resep minuman kekinian, mulai dari smoothies dan milkshake.
-##### 2. Mempelajari langkah-langkah pembuatan minuman dengan petunjuk yang mudah diikuti.
+1. Menjelajahi berbagai resep minuman kekinian, mulai dari smoothies dan milkshake.
+2. Mempelajari langkah-langkah pembuatan minuman dengan petunjuk yang mudah diikuti.
 3. Mendapatkan tips unik untuk menciptakan kreasi ala barista.
 
 #### Fitur utama 
-##### 1. Menu favorit
-##### 2. Icon Back (untuk kembali ke halaman sebelumnya)
+1. Menu favorit
+2. Icon Back (untuk kembali ke halaman sebelumnya)
 
 #### Kami Berkomitmen memberikan inspirasi untuk menciptakan minuman lezat, nikmat, praktis dan memuaskan.
 ##### Mulai sekarang, buat setiap tegukan lebih berkesan bersama Minuman Blend.
