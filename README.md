@@ -11,6 +11,9 @@
 ## StoryBoard
 ![Screenshot 2024-11-02 162551](https://github.com/user-attachments/assets/e931d6b3-b9df-416c-9f8d-addf2af4c205)
 
+## Project Aplikasi Blend
+# Selamat Datang di aplikasi Minuman Blend, Tempat terbaik untuk menemukan berbagai resep minuman segar & nikmat! Aplikasi ini dirancang khusus untuk anda yang gemar bereksperimen dengan minuman.
+
 ## Splash
 ![Screenshot 2025-01-01 235830](https://github.com/user-attachments/assets/04b23106-a30b-4018-9771-92e1a3927a9a)
 
