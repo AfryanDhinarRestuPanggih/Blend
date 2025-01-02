@@ -24,8 +24,8 @@
 
 #### Kami Berkomitmen memberikan inspirasi untuk menciptakan minuman lezat, nikmat, praktis dan memuaskan. Mulai sekarang, buat setiap tegukan lebih berkesan bersama Minuman Blend.
 
-## Berikut adalah Tampilan aplikasi ketika di run
-BlendRun.mp4
+## Berikut adalah Tampilan aplikasi ketika di Run
+[BlendRun.mp4](https://github.com/user-attachments/assets/ccf61b7b-6ac4-4af3-8300-91f4ff95fbe4)
 
 ## Splash
 ![Screenshot 2025-01-01 235830](https://github.com/user-attachments/assets/04b23106-a30b-4018-9771-92e1a3927a9a)
